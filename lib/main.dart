@@ -8,7 +8,13 @@ import 'models/transactions/withdraw.dart';
 import 'utils/menu.dart';
 
 void main() {
-  Account account = Account(100003658, 'Mohamed Elsayed', 1000.0);
+  Account account = Account(
+    accountNumber: 1111222233334444,
+    accountName: 'Mohamed Elsayed',
+    accountPassword: 1234,
+    balance: 0,
+  );
+
   bool running = true;
 
   while (running) {

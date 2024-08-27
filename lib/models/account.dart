@@ -1,7 +1,12 @@
 class Account {
   final int accountNumber;
-  final String ownerName;
+  final String accountName;
+  final int accountPassword;
   double balance;
 
-  Account(this.accountNumber, this.ownerName, this.balance);
+  Account(
+      {required this.accountNumber,
+      required this.accountName,
+      required this.accountPassword,
+      required this.balance});
 }
